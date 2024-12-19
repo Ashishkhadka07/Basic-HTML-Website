@@ -15,3 +15,56 @@ nav ul {
 .logo img {
   border-radius: 8px;
 }
+.introduction {
+  display: flex;
+  flex-direction: column; /* Stacks the elements vertically */
+  justify-content: center;
+  align-items: center;
+}
+.introduction h1 {
+  margin-bottom: 3px;
+}
+.introduction p {
+  margin-top: 2px;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+.container section {
+  flex: 1; /* All sections take equal width */
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+.reviews h2 {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  padding: 20px;
+}
+.reviews {
+  /* display: flex; */
+  gap: 20px;
+  /* flex-direction: column; */
+}
+.review blockquote {
+  flex: 1; /* All sections take equal width */
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
