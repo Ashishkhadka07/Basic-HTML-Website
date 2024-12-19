@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  flex-grow: 0.5;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-around;
+}
+.logo img {
+  border-radius: 8px;
+}
